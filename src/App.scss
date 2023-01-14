@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  font-family: "Poppins";
+  header {
+    height: 800px;
+    background: linear-gradient(94.59deg, #4923b4 2.39%, #e878cf 97.66%);
+    border-radius: 0px 0px 200px 0px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    position: relative;
+    color: #fff;
+
+    nav {
+      width: 1336px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 35px;
+      display: flex;
+      position: relative;
+      justify-content: center;
+      .logo {
+        position: absolute;
+        left: 0;
+      }
+      .list-heading {
+        display: flex;
+        gap: 30px;
+        li {
+          list-style: none;
+          a {
+            color: #fff;
+            text-decoration: none;
+          }
+        }
+      }
+      .action {
+        display: flex;
+        position: absolute;
+        right: 0;
+        color: #fff;
+        gap: 30px;
+        .action-btn {
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 23px;
+            height: 23px;
+            margin-right: 4px;
+          }
+        }
+      }
+    }
+    .content-heading {
+      width: 1305px;
+      display: flex;
+      position: absolute;
+      right: 0;
+      top: 0;
+      .info {
+        .sub-title {
+          margin-top: 226px;
+          .title {
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 80px;
+          }
+          .desc {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+          }
+          .action {
+            display: flex;
+            .check-courses {
+              width: 172px;
+              height: 44px;
+              background: #ff00c7;
+              border-radius: 12px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              a {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: #fff;
+                text-decoration: none;
+              }
+            }
+            .learn-more {
+              width: 172px;
+              height: 44px;
+              border: solid 1px #fff;
+              border-radius: 12px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              a {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: #fff;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
